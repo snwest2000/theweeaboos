@@ -46,3 +46,19 @@ h1 { /* Matches elements with h3 tag */
   border-width: 5px;
 	border-color: green;
 }
+
+.divRandom{
+	  width: 600px;
+	  height: 400px;
+	  background: #f0f0f0;
+	  position: relative;
+	}
+
+.divBox {
+	  width: 100px;
+	  height: 100px;
+	  background: #e00;
+	  border-radius: 50px;
+	  position: absolute;
+	  /* parent width - box width */
+	}
