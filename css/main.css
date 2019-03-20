@@ -47,18 +47,13 @@ h1 { /* Matches elements with h3 tag */
 	border-color: green;
 }
 
-.divRandom{
-	  width: 600px;
-	  height: 400px;
-	  background: #f0f0f0;
-	  position: relative;
-	}
+.
 
-.divBox {
-	  width: 100px;
-	  height: 100px;
-	  background: #e00;
-	  border-radius: 50px;
-	  position: absolute;
-	  /* parent width - box width */
-	}
+
+.imgGetLarge{
+	width: 200px;
+}
+
+.imgGetLarge:hover{
+	transform: scale(1.5, 1.5);
+}
