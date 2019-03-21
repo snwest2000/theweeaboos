@@ -61,18 +61,14 @@ h1 { /* Matches elements with h3 tag */
 	position: absolute;
 }
 
-.pic2{
-	position: absolute;
-
-}
-
 .imgGetLarge{
 	width: 100px;
-	border-style: solid;
+	filter: blur(3px);
+	/*border-style: solid;
 	border-width: 5px;
-	border-color: #fff91f;
+	border-color: #fff91f;*/
 }
 
-/*.imgGetLarge:hover{
+.imgGetLarge:hover{
 	transform: scale(1.2, 1.2);
-}*/
+}
