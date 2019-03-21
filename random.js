@@ -1,4 +1,4 @@
-var pictures2 = document.getElementsByClassName("pic");
+/*var pictures2 = document.getElementsByClassName("pic");
 
 for (var i = 0; i < pictures.length; i++){
   var pic2 = pictures2[i];
@@ -6,9 +6,9 @@ for (var i = 0; i < pictures.length; i++){
       event.target.style.left = ((Math.random() * 60) + 15 )+ "%";
       event.target.style.top = ((Math.random() * 60) + 10 )+ "%";
     }
-  });
+  });*/
 
-/*
+
 randomDiv()
 setInterval(randomDiv, 2000);
 
@@ -21,4 +21,4 @@ function randomDiv(){
     pic.style.top = ((Math.random() * 60) + 10 )+ "%";
 
   }
-}*/
+}
