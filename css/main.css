@@ -47,7 +47,15 @@ h1 { /* Matches elements with h3 tag */
 	border-color: green;
 }
 
-.reddiamondsize {width: 5%}
+#pink-jewel {
+	margin: 5%;
+	padding: 6px;
+}
+
+.reddiamondsize {
+	width:200px;
+	height:100px;
+}
 
 
 #midDiv {
