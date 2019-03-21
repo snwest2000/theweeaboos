@@ -65,7 +65,7 @@ h1 { /* Matches elements with h3 tag */
 	width: 100px;
 	border-style: solid;
 	border-width: 5px;
-	border-color: green;
+	border-color: #fff91f;
 }
 
 .imgGetLarge:hover{
