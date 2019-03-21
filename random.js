@@ -1,10 +1,7 @@
+var pictures = document.getElementsByClassName("pic");
 
-  for (var i = 0; i < 5; i++) {
-    $('.divRandom').append('<div class="divBox"></div>');
-  }
-  $( '.divBox' ).each(function( 123 ) {
-    $(this).css({
-      left : ((Math.random() * $('.divRandom').width())),
-      top : ((Math.random() * $('.divRandom').height()))
-    });
-  });
+for (var i = 0; i < pictures.length; i++) {
+  var pic = pictures[i];
+  pic.style.left = (Math.random() * 100) + "%";
+  pic.style.top = (Math.random() * 100) + "%";
+}
