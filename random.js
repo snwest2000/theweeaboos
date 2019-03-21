@@ -1,7 +1,7 @@
 setInterval(randomDiv, 2000);
 
 function randomDiv(){
-  var pictures = document.getElementsByClassName("pic");
+  var pictures = document.getElementsByClassName("pic"); 
 
   for (var i = 0; i < pictures.length; i++) {
     var pic = pictures[i];
