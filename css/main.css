@@ -47,6 +47,8 @@ h1 { /* Matches elements with h3 tag */
 	border-color: green;
 }
 
+.reddiamondsize {width: 5%}
+
 
 #midDiv {
 	text-align: center;
