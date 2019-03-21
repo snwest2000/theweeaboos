@@ -28,8 +28,7 @@ h1 { /* Matches elements with h3 tag */
 #div3 {
 	/* background-color: orange; */
 	background-color:violet;
-	marg
-	in: 5%;
+	margin: 5%;
 	padding: 6px;
 	float:right;
 	width: 25%;
