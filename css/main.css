@@ -56,6 +56,30 @@ h1 { /* Matches elements with h3 tag */
 				margin-right:auto;
 }
 
+@font-face {
+    font-family: 'brown_bere'; /*a name to be used later*/
+    src: url('font/Reey-Regular.otf'); /*URL to font*/
+}
+
+.midelText{
+	font-family: 'brown_bere';
+	color: #fff91f;
+	-webkit-text-stroke: 3px #031321;
+	/*text-shadow: 4px 2px #fff91f;  #274E7F*/
+	font-size: 70px;
+	/*font-weight: bold;*/
+	filter: blur(2.5px);
+
+
+	left: 0;
+	line-height: 200px;
+	margin: auto;
+	margin-top: -100px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
 
 .pic {
 	position: absolute;
